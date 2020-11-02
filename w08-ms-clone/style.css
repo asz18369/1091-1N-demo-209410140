@@ -224,7 +224,7 @@ ul {
 
 .links-inner {
     max-width: 1100px;
-    margin: 0 20px;
+    margin: 0 auto;
     padding: 0 20px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -296,6 +296,7 @@ ul {
         opacity: 0.9;
         padding: 30px;
         transform: translateX(-500px);
+        transition: transform 0.5s ease-in-out;
     }
 
     .main-nav ul.main-menu.show {
