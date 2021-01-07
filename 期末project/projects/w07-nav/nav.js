@@ -1,0 +1,56 @@
+<<<<<<< HEAD
+function change(index) {
+    const p = document.getElementById('show');
+    console.log('showw',p);
+    switch(index){
+    case 1:
+        p.innerHTML = '<iframe width=100% height=100% src="./w01-intro-pokemon/index.html" />';
+    break;
+        case 2:
+        p.innerHTML = '<iframe width=100% height=100% src="./w01-intro-pokemon/pokemon.html" />';
+        break;
+    case 3:
+       p.innerHTML = '<iframe width=100% height=100% src="./w02-imgGallery/imgGallery.html" />';
+        break;
+    case 4:
+        p.innerHTML = '<iframe width=100% height=100% src="./w02-blog/blog.html" />';
+        break;
+    case 5:
+        p.innerHTML = '<iframe width=100% height=100% src="./w03-div/div.html" />';
+        break;
+    case 6:
+        p.innerHTML = '<iframe width=100% height=100% src="./w04-tku.js/div-tku60.html" />';
+        break;
+    case 7:
+        p.innerHTML = '<iframe width=100% height=100% src="./w07-ms-clone/index.html" />';
+        break;
+    }
+=======
+function change(index) {
+    const p = document.getElementById('show');
+    console.log('showw',p);
+    switch(index){
+    case 1:
+        p.innerHTML = '<iframe width=100% height=100% src="./w01-intro-pokemon/index.html" />';
+    break;
+        case 2:
+        p.innerHTML = '<iframe width=100% height=100% src="./w01-intro-pokemon/pokemon.html" />';
+        break;
+    case 3:
+       p.innerHTML = '<iframe width=100% height=100% src="./w02-imgGallery/imgGallery.html" />';
+        break;
+    case 4:
+        p.innerHTML = '<iframe width=100% height=100% src="./w02-blog/blog.html" />';
+        break;
+    case 5:
+        p.innerHTML = '<iframe width=100% height=100% src="./w03-div/div.html" />';
+        break;
+    case 6:
+        p.innerHTML = '<iframe width=100% height=100% src="./w04-tku.js/div-tku60.html" />';
+        break;
+    case 7:
+        p.innerHTML = '<iframe width=100% height=100% src="./w07-ms-clone/index.html" />';
+        break;
+    }
+>>>>>>> 10a3175eb5ac793d8e84f33f5603b4ddf81fc012
+}

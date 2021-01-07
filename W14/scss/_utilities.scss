@@ -1,0 +1,117 @@
+//Text Styles
+.x-large{
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.large{
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.lead {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+//Background
+
+.bg {
+    &-primary {
+        @include set-background($primary-color);
+    }
+    &-dark {
+        @include set-background($dark-color);
+    }
+    &-light {
+        @include set-background($light-color);
+    }
+    &-danger {
+        @include set-background($danger-color);
+    }
+    &-success {
+        @include set-background($success-color);
+    }
+    &-white {
+        @include set-background(#ffffff);
+        border: #ffffff 1px solid;
+    }
+    &-warning {
+        @include set-background($warning-color);
+    }
+    &-secondary {
+        @include set-background($secondary-color);
+    }
+}
+
+//Buttons
+.btn{
+    display: inline-block;//同列
+    background: $light-color;
+    color: #333;
+    padding: 0.4rem 1.3rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    transition: all 0.2s ease-in;
+
+    &.btn-outline-primary{
+        background-color:transparent;
+        color: $primary-color;
+        outline: $primary-color 1px solid;
+        &:hover{
+            background-color: $primary-color;
+            color: #ffffff;
+        }
+    }
+
+    &.btn-outline-danger{
+        background-color:transparent;
+        color: $danger-color;
+        outline: $danger-color 1px solid;
+        &:hover{
+            background-color: $danger-color;
+            color: #ffffff;
+        }
+    }
+
+    &.btn-outline-success{
+        background-color:transparent;
+        color: $success-color;
+        outline: $success-color 1px solid;
+        &:hover{
+            background-color: $success-color;
+            color: #ffffff;
+        }
+    }
+
+    &.btn-primary {
+        @include set-background($primary-color);
+        &:hover {
+            background: lighten($primary-color,5%); 
+        }
+        // background-color: $primary-color;
+    }
+
+    &.btn-danger {
+        @include set-background($light-color);
+        &:hover{
+            background: lighten($success-color,5%);
+            color: #fff;
+        }
+        //background-color: $light-color;
+    }
+
+}
+
+.dark-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.75);
+}
+

@@ -1,0 +1,29 @@
+.name {
+    background-color: rgb(105, 54, 121);
+}
+.one {
+    background-color: rgb(11, 7, 247);
+}
+.week {
+    background-color: rgb(103, 206, 238);
+}
+.two {
+    background-color: rgb(207, 95, 4);
+}
+.q {
+    background-color: rgb(236, 190, 163);
+}
+.w {
+    background-color: rgb(139, 17, 187);
+}
+.e {
+    background-color: rgb(211, 206, 206);
+}
+.r {
+    background-color: rgb(143, 231, 135);
+}
+
+.all{
+    margin-left:16%;
+    margin-top: 7%;
+}
