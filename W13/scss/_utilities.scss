@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //Background
 
 .bg {
@@ -12,4 +13,20 @@
     top: 0;
     left: 0;
     background-color: rgba(0,0,0,0.75);
+=======
+//Background
+
+.bg {
+    &-dark {
+        background-color: $dark-color;
+    }
+}
+.dark-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.75);
+>>>>>>> 593b0921856444910939747ed6139c624bc40a20
 }
